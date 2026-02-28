@@ -143,6 +143,44 @@ section {
 }
 
 /* =========================================
+   CLASES PERSONALIZADAS (Reemplazo de Bootstrap Utilities)
+   ========================================= */
+/* Para el Navbar */
+.mi-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.mi-espaciado-logo {
+  margin-right: 0.5rem;
+}
+
+.mi-menu-nav {
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-right: 1rem;
+}
+
+/* Para textos centrados (index y menu) */
+.texto-centrado {
+  text-align: center;
+}
+
+/* Para el contenedor del Carrusel */
+.mi-carrusel-contenedor {
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Para las imágenes del Carrusel */
+.imagen-carrusel {
+  display: block;
+  width: 100%;
+}
+
+/* =========================================
    FOOTER
    ========================================= */
 footer {
