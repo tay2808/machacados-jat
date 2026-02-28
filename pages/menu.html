@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machacados JAT - Menú</title>
+    
+    <!-- Bootstrap 5.3.8 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR OFFCANVAS -->
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                    <img class="logo-header me-2" src="../img/logo.png" alt="logo machacados JAT" width="50">
+                    <strong>Machacados JAT</strong>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Menú</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./sucursal.html">Sucursal</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./carrito.html">Carrito</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./galeria.html">Galeria</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Nuestro Menú</h2>
+            <p style="text-align: center;">Explora nuestra variedad de sabores. ¡Todos preparados al momento!</p>
+        </section>
+
+        <!-- Categoría 1 -->
+        <section>
+            <h3>Machacados Tradicionales</h3>
+            <p>Fruta machacada a mano con hielo, sal, limón y chile. ¡La combinación perfecta!</p>
+            <img class="imagen-contenido" src="../img/machacados.jpg" alt="Foto de varios machacados">
+            
+            <ul class="menu-list">
+                <li><strong>Machacado de Fresa</strong> <span>$35.00</span></li>
+                <li><strong>Machacado de Mango</strong> <span>$40.00</span></li>
+                <li><strong>Machacado de Piña</strong> <span>$35.00</span></li>
+                <li><strong>Machacado de Coco</strong> <span>$45.00</span></li>
+                <li><strong>Machacado de Limón</strong> <span>$30.00</span></li>
+            </ul>
+        </section>
+
+        <!-- Categoría 2 -->
+        <section>
+            <h3>Raspados Refrescantes</h3>
+            <p>Hielo raspado suave bañado en nuestros jarabes 100% caseros.</p>
+            <img class="imagen-contenido" src="../img/raspados.jpg" alt="Foto de raspados">
+
+            <ul class="menu-list">
+                <li><strong>Raspado de Tamarindo</strong> <span>$25.00</span></li>
+                <li><strong>Raspado de Chamoy</strong> <span>$25.00</span></li>
+                <li><strong>Raspado de Uva</strong> <span>$25.00</span></li>
+                <li><strong>Raspado de Naranja</strong> <span>$25.00</span></li>
+            </ul>
+        </section>
+
+        <!-- Categoría 3 -->
+        <section>
+            <h3>Especialidades Dulces</h3>
+            <p>Para los amantes de lo cremoso. Usamos crema de rancho.</p>
+            <img class="imagen-contenido" src="../img/fresas con crema.jpg" alt="Foto detalle de fresas con crema">
+
+            <ul class="menu-list">
+                <li><strong>Fresas con crema y nuez</strong> <span>$50.00</span></li>
+                <li><strong>Fresas con crema y lunetas</strong> <span>$55.00</span></li>
+                <li><strong>Fresas con crema naturales</strong> <span>$45.00</span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Machacados JAT. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap 5.3.8 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
