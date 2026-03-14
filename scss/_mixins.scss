@@ -1,0 +1,35 @@
+/* =========================================
+   MIXINS, EXTENDS Y ANIMACIONES
+   ========================================= */
+
+// Requisito: Extend (Plantilla para centrar contenido)
+%centrar-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Requisito: Mixin (Para Media Queries)
+@mixin tablet-up {
+  @media (min-width: 521px) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+
+// Requisito: Animación con Keyframes
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
