@@ -40,7 +40,7 @@ h2 { color: $color-acento; margin-top: 20px; }
    NAVBAR Y COMPONENTES
    ========================================= */
 .logo-header {
-  transition: transform 5.0 s ease;
+  transition: transform 0.3s ease;
   &:hover {
     transform: scale(1.1);
   }
@@ -115,9 +115,9 @@ main {
 
     // Retrasos escalonados ajustados para 2 segundos
     &:nth-child(1) { animation-delay: 0.1s; }
-    &:nth-child(2) { animation-delay: 0.4s; }
-    &:nth-child(3) { animation-delay: 0.7s; }
-    &:nth-child(4) { animation-delay: 1.0s; }
+    &:nth-child(2) { animation-delay: 0.2s; }
+    &:nth-child(3) { animation-delay: 0.5s; }
+    &:nth-child(4) { animation-delay: 0.8s; }
 
     @include tablet-up {
       padding: 18px;
