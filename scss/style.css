@@ -46,18 +46,27 @@ body {
   min-height: 100vh;
 }
 
+/* CORRECCIÓN: Actualizado H1 para que mantenga el estilo visual de tus antiguos H2 */
 h1, h2, h3 {
   margin-bottom: 15px;
   text-align: center;
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  color: #D84315;
+  margin-top: 20px;
 }
 
 h2 {
-  color: #D84315;
-  margin-top: 20px;
+  font-size: 1.6rem;
+  color: #FF9800;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #333;
 }
 
 /* =========================================
@@ -315,4 +324,4 @@ footer {
 
 .img7 {
   grid-area: imgtt;
-}/*# sourceMappingURL=style.css.map */
+}
